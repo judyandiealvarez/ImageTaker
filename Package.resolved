@@ -1,0 +1,15 @@
+{
+  "originHash" : "1e89414c1ae3e17da0e9c25fa87711a93678a95568003328c5184ceded984d83",
+  "pins" : [
+    {
+      "identity" : "imagestorage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/judyandiealvarez/ImageStorage.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "71cbf816a0cf0884a9e71626a90bad5cafb831d9"
+      }
+    }
+  ],
+  "version" : 3
+}
