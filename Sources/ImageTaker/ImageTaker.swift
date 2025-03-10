@@ -15,6 +15,11 @@ public struct ImageTaker: View {
     @State var showImagePicker: Bool = false
     @State var imagePickerCaptureMode: Bool = false
     @State var showingDeleteAlert: Bool = false
+    
+    public init(id: Binding<UUID?>, resizeWidth: Double = 60) {
+        self._id = id
+        self.resizeWidth = resizeWidth
+    }
         
     public var body: some View {
         VStack {
