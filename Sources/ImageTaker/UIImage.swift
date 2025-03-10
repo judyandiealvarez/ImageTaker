@@ -2,7 +2,7 @@
 //  UIImage.swift
 //  ImageTaker
 //
-//  Created by Shadowchamber on 10/03/25.
+//  Created by Judy Alvarez on 10/03/25.
 //
 
 

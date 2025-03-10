@@ -2,7 +2,7 @@
 //  UUIDImage.swift
 //  KeepStuff
 //
-//  Created by Shadowchamber on 18/02/25.
+//  Created by Judy Alvarez on 18/02/25.
 //
 
 import SwiftUI
