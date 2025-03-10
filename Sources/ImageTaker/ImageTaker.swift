@@ -106,7 +106,7 @@ public struct ImageTaker: View {
                 let imageStorage = ImageStorage()
                 
                 if let imageId = id  {
-                    id = imageId
+                    id = UUID()
                     
                     do {
                         if let imageData = selectedImage {
@@ -114,7 +114,7 @@ public struct ImageTaker: View {
                             if let image = UIImage(data: imageData) {
                                 let resizedImage = image.cropToSquare().resize(width: resizeWidth)
                                 try imageStorage.remove(imageId)
-                                try imageStorage.save(imageId, resizedImage.pngData() ?? Data())
+                                try imageStorage.save(id!, resizedImage.pngData() ?? Data())
                             }
                         }
                     }
